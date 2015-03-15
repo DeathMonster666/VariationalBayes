@@ -52,7 +52,7 @@ class Updates:
 
             new_gradient = T.switch(T.isnan(new_gradient), 0.0, new_gradient)
 
-            mom = 0.7
+            mom = 0.9
 
             learning_rate_use = learning_rate
 
